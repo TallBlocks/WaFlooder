@@ -17,7 +17,7 @@
  / \----------------------------------------------------, 
  \_,|                                                   |   
     |    Version >>> v1.0 (stable)                      | 
-    |    Last Update >>> 10th November 2020             |
+    |    Last Update >>> 30th November 2020             |
     |    Coded by TallGorilla                           |
     |    GitHub >>> https://github.com/TallGorilla      |
     |    My website >>> https://tallgorilla.github.io   |
