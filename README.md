@@ -78,8 +78,8 @@ The <b>installable version comes with an installer</b> (INSTALL.bat for windows 
 
 
 # Screenshots
-![alt text](https://github.com/TallGorilla/WaFlooder/blob/main/screenshots/screenshot1.png?raw=true)
-![alt text](https://github.com/TallGorilla/WaFlooder/blob/main/screenshots/screenshot2.jpg?raw=true)
-![alt text](https://github.com/TallGorilla/WaFlooder/blob/main/screenshots/screenshot3.jpg?raw=true)
-![alt text](https://github.com/TallGorilla/WaFlooder/blob/main/screenshots/screenshot4.jpg?raw=true)
-![alt text](https://github.com/TallGorilla/WaFlooder/blob/main/screenshots/screenshot5.jpg?raw=true)
+![alt text](https://github.com/TallGorilla/WaFlooder/blob/master/screenshots/screenshot1.png?raw=true)
+![alt text](https://github.com/TallGorilla/WaFlooder/blob/maste/screenshots/screenshot2.jpg?raw=true)
+![alt text](https://github.com/TallGorilla/WaFlooder/blob/maste/screenshots/screenshot3.jpg?raw=true)
+![alt text](https://github.com/TallGorilla/WaFlooder/blob/maste/screenshots/screenshot4.jpg?raw=true)
+![alt text](https://github.com/TallGorilla/WaFlooder/blob/maste/screenshots/screenshot5.jpg?raw=true)
