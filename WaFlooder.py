@@ -49,11 +49,13 @@ def wpbombingwin():
 
     browser.set_window_position(-10000,0)
 
-    wp_victim = input("    |-$ Victim's Phone Number (with country code) > ")
-    bad_chars = ['+', ' ', '-']
+    try:
+        confirm = WebDriverWait(browser, 600).until(EC.presence_of_element_located(
+            (By.CLASS_NAME, "_210SC")))
+    finally:
+        pass
 
-    for i in bad_chars :
-        wp_victim = wp_victim.replace(i, '')
+    browser.find_element_by_css_selector("span[title='" + input("    |-$ Victim's name (contact/group name) > ") + "']").click()
 
     mode = input('''    |
     |-PRESS------------------|
@@ -74,12 +76,9 @@ def wpbombingwin():
         print('    |-} invalid input !')
         return
 
-
-    browser.get(f'https://web.whatsapp.com/send?phone={wp_victim}&text&source&data&app_absent')
-
     try:
         confirm = WebDriverWait(browser, 600).until(EC.presence_of_element_located(
-            (By.CLASS_NAME, "PVMjB")))
+            (By.CLASS_NAME, "_210SC")))
     finally:
         pass
 
@@ -128,11 +127,13 @@ def wpbombinglinux():
 
     browser.minimize_window()
 
-    wp_victim = input("    |-$ Victim's Phone Number (with country code) > ")
-    bad_chars = ['+', ' ', '-']
+    try:
+        confirm = WebDriverWait(browser, 600).until(EC.presence_of_element_located(
+            (By.CLASS_NAME, "_210SC")))
+    finally:
+        pass
 
-    for i in bad_chars :
-        wp_victim = wp_victim.replace(i, '')
+    browser.find_element_by_css_selector("span[title='" + input("    |-$ Victim's name (contact/group name) > ") + "']").click()
 
     mode = input('''    |
     |-PRESS------------------|
@@ -153,12 +154,9 @@ def wpbombinglinux():
         print('    |-} invalid input !')
         return
 
-
-    browser.get(f'https://web.whatsapp.com/send?phone={wp_victim}&text&source&data&app_absent')
-
     try:
         confirm = WebDriverWait(browser, 600).until(EC.presence_of_element_located(
-            (By.CLASS_NAME, "PVMjB")))
+            (By.CLASS_NAME, "_210SC")))
     finally:
         pass
 
