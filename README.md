@@ -1,4 +1,4 @@
-# WhaFlooder.
+# WaFlooder.
 ![Licence](https://img.shields.io/github/license/TallGorilla/WaFlooder)
 ![version](https://img.shields.io/static/v1?label=version&message=v1.0-stable&color=brightgreen)
 ![os](https://img.shields.io/static/v1?label=os%20support&message=linux&color=blue)
