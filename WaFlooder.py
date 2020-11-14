@@ -12,7 +12,7 @@ import platform
 import webbrowser
 
 counter = 0
-url = "https://tallgorilla.github.io"
+url = "https://TallBlocks.github.io"
 
 def checkinternet():
     res = False
@@ -199,9 +199,9 @@ else:
 
 checkinternet()
 
-result = pyfiglet.figlet_format("TallGorilla's WaFlooder")
+result = pyfiglet.figlet_format("TallBlocks's WaFlooder")
 
-print (result, "https://tallgorilla.github.io")
+print (result, "https://TallBlocks.github.io")
 
 if linux:
     wpbombinglinux()
